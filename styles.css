@@ -1,0 +1,33 @@
+body {
+    background-image: url('Pictures/wallpaper.jpg'); background-repeat: no-repeat ; background-size: cover;
+    text-align: center;
+}
+header {
+    background-color: darkcyan;
+    padding: 10px;
+    text-align: center; 
+}
+footer {
+    background-color: darkcyan; padding: 10px; text-align: center; 
+}
+h1 {
+    font-family: Ink Free; font-size: 30pt;
+}
+nav {
+    padding: 6px; background-color: lightcoral;
+}
+nav a:hover {
+    background-color: darkturquoise; padding: 6px; padding-left: 150px; padding-right: 150px;
+} 
+nav a.active {
+    background-color: darkcyan; padding: 6px; color:black; padding-left: 66px; padding-right: 66px; text-decoration: none;
+}
+.nav1 {
+    text-decoration: none; color:black; padding-left: 150px; padding-right: 150px;
+}
+table {
+    border: solid; background-color: black; border-radius: 2%; text-align: center;margin-left: 120px; 
+}
+tr,th,td {
+            background-color: lavender; padding-left: 66px; padding-right: 66px;
+        }

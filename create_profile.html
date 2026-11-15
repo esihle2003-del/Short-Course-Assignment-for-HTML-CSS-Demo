@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile creation</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+         #form1 {
+            padding-left: 220px; padding-right: 220px;
+            text-align: center; padding-bottom: 40px; margin: 10px;
+        }
+        .button1 {
+            padding: 8px; background-color: lightyellow;
+            border: solid black; text-decoration: none; color: black;
+        }
+        .button1:hover {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body><header>
+        <h1>Xeno Wash Blybunk</h1>
+    </header>
+    <main><form id="form1" > 
+        <fieldset style="background-color: lavender;">
+            <legend style="padding: 10px; background-color: whitesmoke;"><u>Please fill in the form</u></legend>
+            <label>Name</label><br>
+            <input type="text" name="Name" placeholder="Shadrick"><br>
+            <label>Surname</label><br>
+            <input type="text" name="Surname" placeholder="Mabena"><br>
+            <label>Email</label><br>
+            <input type="email" name="email" placeholder="agentmabena@lekompo.com"><br>
+            <label>Phone Number</label><br>
+            <input type="text" maxlength="10" placeholder="0800010111"><br>
+            <label>Would you like to recieve any updates regarding our services ?</label><br>
+            <input type="radio" name="Yes/No" value="Yes">Yes
+            <input type="radio" name="Yes/No" value="No">No<br><br>
+            <label>Create a Password</label><br> <input type="password" name="password" required placeholder="70775089"><br>
+            <a href="home.html" class="button1">Done</a> <button type="reset" class="button1">Cancel</button>
+        </fieldset>
+    </main></form>
+    <footer>
+        <p style="text-align:center;">&copy; 2026 Xeno Wash Blybunk</p>
+        <p>Link to background image <a href="https://unsplash.com/s/photos/wood-wall" style="text-decoration: none; color: white;">Click here</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #Intro {
+            background-color: aliceblue; margin-left: 66px; margin-right: 66px;
+        }
+        .contact_form {
+            background-color: darkgrey; text-align: left; margin-left: 166px; margin-right: 166px;
+            border: solid; border-color: black; padding-left: 10px; padding-bottom: 5px;
+        }
+        .button1 {
+            padding: 8px; background-color: lightyellow; padding-bottom: 5px;
+            border: solid black; text-decoration: none; color: black;
+        }
+        .button1:hover {
+            background-color: lightgreen;
+        }
+        hr{
+            border: none; background-color: black;
+            height: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Xeno Wash Blybunk</h1></header>
+    <nav class="nav1"><a href="home.html" class="nav1">Home</a><a href="about_us.html" class="nav1">About Us</a><a href="contact_us.html" class="active">Contact Us</a></nav><br>
+    <section>
+        <p id="Intro">Do you wish to make any enquries with us look below the table to get our contact details</p> <table >
+            <th colspan="2" style="background-color:darkseagreen;">Contact Us</th>
+            <tr><th>Platform</th><th>Contact details</th></tr>
+            <tr><td>Whatsapp/ Tele</td><td>078XXXXXXX</td></tr>
+            <tr><td>E-mail</td><td>xenowashblybank21@gmail.com</td></tr>
+        </table></section><br>
+    <section><form class="contact_form">
+            <h2 align="center">Enquiry here</h2><hr style="margin-left: -10px;">
+            <label>Name</label><br><input type="text" name="Name" ><br><label>Surname</label><br>
+            <input type="text" name="Surname" ><br>
+            <label>Email</label><br>
+            <input type="email" name="email" placeholder="johndoe@gov.com"><p>or :</p>
+            <label>Phone Number</label><br>
+            <input type="text" maxlength="10" placeholder="0800055555"><br>
+            <p><u>Please select what topic would would like top enquiry about :</u></p>
+           <select name="Yes/No">
+                <option value="Dustbin Wash">Dustbin Wash</option>
+                <option value="Car Wash">Car Wash</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+            <textarea cols="80" rows="6" placeholder="write enquries here"></textarea> <br>
+            <label>Date of enquiry</label>
+            <input type="date" name="date_of _eq"><br>
+            <label>Would you like to recieve any notifications?</label><br>
+            <input type="radio" name="Yes/No" value="Yes">Yes
+            <input type="radio" name="Yes/No" value="No">No<br><br>
+            <a href="contact_us.html" class="button1" target="_parent" onclick="alert('Enquiry has been sent')">Done</a> <button type="reset" class="button1">Cancel</button>
+        <p class="message" hidden>Please login if you have a profile with us</p>
+        </form>
+    </section>
+    <footer>
+        <p style="text-align:center;">&copy; 2026 Xeno Wash Blybunk</p>
+        <p>Link to background image <a href="https://unsplash.com/s/photos/wood-wall" style="text-decoration: none; color: white;">Click here</a></p>
+    </footer>
+</body>
+</html>

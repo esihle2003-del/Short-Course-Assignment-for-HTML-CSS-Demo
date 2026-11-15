@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #form1 {
+            padding-left: 220px; padding-right: 220px;
+            text-align: center; padding-bottom: 40px; margin: 10px;
+        }
+        #form1:hover .message{
+            display: block;
+        }
+        .message {
+            display: none; color:red ; background-color: yellow;
+        }
+        .button1 {
+            padding: 8px; background-color: lightyellow;
+            border: solid black; text-decoration: none; color: black;
+        }
+        .button1:hover {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body> <header>
+        <h1>Xeno Wash Blybunk</h1>
+    </header>
+    <div id="form1" >
+        <form style="background-color: whitesmoke;"><fieldset style="padding: 10px; background-color: lavender;"><legend style="font-size: 20pt; text-decoration: underline;">Login</legend>
+        <label>Username (Can use your email address or surname)</label><br><input type="text" name="username" placeholder="Tshabalala" required><br>
+        <label>Password</label><br> <input type="password" name="password" required placeholder="70775089"><br>
+        <br>
+        <a href="home.html" class="button1">Done</a> <button type="reset" class="button1">Cancel</button>
+        <p class="message" hidden>Please login if you have a profile with us</p>
+    </fieldset></form>
+    </div>
+    
+    <div id="form1">
+        <a href="home.html" onclick="alert('Please consider creating a profile with us to recieve our service updates')" class="button1">Login in as a guest</a>
+        <a href="create_profile.html" class="button1">create a profile</a>
+    </div>
+    <footer>
+        <p style="text-align:center;">&copy; 2026 Xeno Wash Blybunk</p>
+        <p>Link to background image <a href="https://unsplash.com/s/photos/wood-wall" style="text-decoration: none; color: white;">Click here</a></p>
+    </footer>
+</body>
+</html>
